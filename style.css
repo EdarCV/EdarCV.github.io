@@ -1,0 +1,28 @@
+body {
+    background-color: #f3f8fa;
+    border-radius: 20px;
+    /*Sangria*/
+    text-indent: 40px;
+    /*efectos de sombra*/
+    box-shadow: 5px 0 #1293d4 inset;
+}
+
+h3 {
+    margin-left: 40px;
+    /*Fuente*/
+    font-size: 25px;
+    /*Ubicación de texto*/
+    text-align: center;
+    /*Espacio de relleno*/
+    padding: 15px;
+    /*Ancho*/
+    width: 400px;
+    /*Temas*/
+    background: #B7CCDC;
+    /*Borde circular*/
+    border-radius: 20px;
+    /*Sangria*/
+    text-indent: 20px;
+    /*efectos de sombra*/
+    box-shadow: 5px 0 #1293d4 inset;
+}
