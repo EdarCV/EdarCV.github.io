@@ -8,57 +8,52 @@
     <title>Home</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilopersonal.css">
 
+    <!--Ruta para para iconos en linea-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background: #D3D0C8;">
-    <header>
-
-        <div align="center">
-            <img width="600" height="240" src="img/header.gif" alt="Imagen de portada">
-
-        </div>
-        <br>
-        <nav align="center">
-            <a href="About.html">ABOUT</a>
-            <a> / </a>
-            <a href="Contact.html">CONTACT</a>
+<body>
+    <header class="header">
+        <nav class="nav" id="nav">
+            <ul class="menu">
+                <li class="menu_li">
+                    <a class="menu_a" href="About.html">About <i class="fa fa-address-book-o" aria-hidden="true"></i></a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="Contact.html">Contact <i class="fa fa-phone" aria-hidden="true"></i></a>
+                </li>
+            </ul>
         </nav>
-
     </header>
 
-    <h1 align="center">Bienvenidos a mi pagina web</h1>
-    <h2 align="center">En esta pequeña página encontraras mi información personal,
-        <br>algunos hobies y datos para que te pongas en contacto conmigo.</h2>
-    <section>
-        <table border="2" align="center">
-            <tr>
-                <th colspan="3">
-                    <h2>Datos Personales</h2>
-                </th>
-            </tr>
-            <tr>
-                <th>Nombre:</th>
-                <td>Edar Cervantes Vásquez</td>
-                <td rowspan="4"><img width="250" height="360" src="img/perfil.jpg" alt="Imagen de perfil"></td>
-            </tr>
-            <tr>
-                <th>Edad:</th>
-                <td>25 años</td>
-            </tr>
-            <tr>
-                <th>Lugar de Nacimiento::</th>
-                <td>Tongod<br>San Miguel<br>Cajamarca</td>
-            </tr>
-            <tr>
-                <th>Carrera Profesional:</th>
-                <td>Ingeniería de Sistemas</td>
-            </tr>
+    <section class="box">
+        <img class="box_img" src="img/home/perfil1.jpg" alt="imgen de perfil" width="180">
+        <h1>Edar Cervantes Vásquez</h1>
+        <h2>Bienvenidos a mi página web personal</h2>
+        <p>
+            Te doy la bienvenida a mi blog donde podrás encontrar información a cerca de mi persona asi como: mi experiencia laboral, lugares que he visitado, hobies, platos de comida favorita y también podrás encontrar mis datos de contacto.<br>
+            <br> Mi principal objetivo en este blog es compartir mis conococimientos sobre desarrollo web y brindar un poco de mi información personal, para que logren conocerme.
+        </p>
 
-        </table>
     </section>
 
-    <footer align="center">
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/EdarCv/" target="_blanck"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/edar.cv/?hl=es" target="_blanck"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" target="_blanck"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" target="_blanck"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+        </ul>
         <p>&copy Edar Cervantes Vásquez || 2021</p>
     </footer>
 </body>

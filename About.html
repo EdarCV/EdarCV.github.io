@@ -5,146 +5,180 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About</title>
+    <title>Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilopersonal.css">
 
+    <!--Ruta para para iconos en linea-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background: #e7e5df;">
-    <header>
-
-        <div align="center">
-            <video width="720" height="340" controls>
-                <source src="img/Cariñito.mp4">
-            </video>
-        </div>
-        <br>
-        <nav align="center">
-            <a href="index.html">HOME</a>
-            <a> / </a>
-            <a href="Contact.html">CONTACT</a>
+<body>
+    <header class="header">
+        <nav class="nav" id="nav">
+            <ul class="menu">
+                <li class="menu_li">
+                    <a class="menu_a" href="Contact.html">Contact <i class="fa fa-phone" aria-hidden="true"></i></a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+            </ul>
         </nav>
-
     </header>
-    <br>
-    <section>
-        <table border="2" align="center">
-            <tr>
-                <th colspan="4">
-                    <h2>Acerca de mi persona</h2>
-                </th>
-            </tr>
-            <tr>
-                <th>Experiencia Laboral: </th>
-                <td>
-                    <ul>
-                        <li>Representante de servicios área de sala SPSA &nbsp&nbsp</li>
-                        <br><img width="250" height="200" src="img/repon.jpg" alt="Imagen">
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Supervisor de Almacén y Recepción SPSA</li>
-                        <br><img width="250" height="200" src="img/superv.jpg" alt="Imagen">
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Ingeniero de Sistemas</li>
-                        <br><img width="250" height="200" src="img/ingeniero.jpg" alt="Imagen">
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>Lugares que he visitado:&nbsp</th>
-                <td>
-                    <ul>
-                        <li>Baños del Inca - Cajamarca
-                            <br><img width="250" height="200" src="img/bañosInca.jpg" alt="Imagen">
-                        </li>
 
-                        <li>Gallito ciego - Cajamarca
-                            <br><img width="250" height="200" src="img/gallito.jpg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Huanchaco - Trujillo
-                            <br><img width="250" height="200" src="img/Huanchaco.jpg" alt="Imagen">
-                        </li>
-                        <li>Playa Puemape - Pacasmayo
-                            <br><img width="250" height="200" src="img/puemape.jpg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Parque de las Leyendas - Lima
-                            <br><img width="250" height="200" src="img/parque.jpg" alt="Imagen">
-                        </li>
-                        <li>Playa León dormido - Lima
-                            <br><img width="250" height="200" src="img/leonDor.jpg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-
-            <tr>
-                <th>Hobies: </th>
-                <td>
-                    <ul>
-                        <li>Jugar futbol
-                            <br><img width="250" height="200" src="img/futbol.jpeg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Escuchar música
-                            <br><img width="250" height="200" src="img/musica.gif" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Ver peliculas
-                            <br><img width="250" height="200" src="img/peli.gif" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-
-            <tr>
-                <th>Comidas Favorita: </th>
-                <td>
-                    <ul>
-                        <li>Ceviche
-                            <br><img width="250" height="200" src="img/ceviche.jpg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Makis
-                            <br><img width="250" height="200" src="img/maki.jpeg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Pizza
-                            <br><img width="250" height="200" src="img/pizza.jpg" alt="Imagen">
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-
-        </table>
+    <section class="About">
+        <h1>ACERCA DE MI</h1>
     </section>
 
-    <footer align="center">
+    <section class="box_About">
+        <h1 class="h1_izq">Mi experiencia laboral</h1>
+        <section>
+            <div class="galeria">
+                <div class="experiencia">
+                    <img src="img/About/repon.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>REPRESENTANTE DE SERVICIOS ÁREA DE SALA EN SPSA</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes."</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="expercien">
+                    <img src="img/About/superv.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>SUPERVISOR DE ALMACÉN Y RECEPCIÓN EN SPSA</p>
+                    <p class="des">"Dirigir y organizar un equipo de trabajo, para la correcta recepción, ingreso al sistema y almacenamiento de productos."</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="experiencia">
+                    <img src="img/About/ingeniero.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>FUTURO INGENIERO DE SISTEMAS - UNC</p>
+                    <p class="des">"Actualmente me encuentro en el noveno ciclo de la carrera profesional de ingenieria de sistemas en la UNC."</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="box_About">
+        <h1 class="h1_der">Lugares que conozco</h1>
+        <section>
+            <div class="galeria">
+                <div class="lugares">
+                    <img src="img/About/bañosInca.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>BAÑOS DEL INCA - CAJAMARCA</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="lugares">
+                    <img src="img/About/puemape.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>PUEMAPE</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="lugares">
+                    <img src="img/About/leonDor.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>Futuro ingeniero de Sistemas</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="box_About">
+        <h1 class="h1_izq">Mis Hobies</h1>
+        <section>
+            <div class="galeria">
+                <div class="experiencia">
+                    <img src="img/About/futbol.jpeg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>Jugar Fútbol</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="expercien">
+                    <img src="img/About/musica.gif" alt="">
+                </div>
+                <div class="text_img">
+                    <p>Supervisor de almacén y recepción SPSA</p>
+                    <p class="des">"Dirigir y organizar un equipo de trabajo, para la correcta recepción, ingreso al sistema y almacenamiento de productos"</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="experiencia">
+                    <img src="img/About/peli.gif" alt="">
+                </div>
+                <div class="text_img">
+                    <p>Futuro ingeniero de Sistemas</p>
+                    <p class="des">"Actualmente me encuentro en el noveno ciclo de la carrera profesional de ingenieria de sistemas"</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="box_About">
+        <h1 class="h1_der">Mis comidas favoritas</h1>
+        <section>
+            <div class="galeria">
+                <div class="lugares">
+                    <img src="img/About/ceviche.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>RS en el área de sala SPSA</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="lugares">
+                    <img src="img/About/maki.jpeg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>Supervisor de</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="lugares">
+                    <img src="img/About/pizza.jpg" alt="">
+                </div>
+                <div class="text_img">
+                    <p>Futuro ingeniero de Sistemas</p>
+                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes"</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/EdarCv/" target="_blanck"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/edar.cv/?hl=es" target="_blanck"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" target="_blanck"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" target="_blanck"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+        </ul>
         <p>&copy Edar Cervantes Vásquez || 2021</p>
     </footer>
 </body>

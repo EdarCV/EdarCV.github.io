@@ -8,58 +8,81 @@
     <title>Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilopersonal.css">
 
+    <!--Ruta para para iconos en linea-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background: #e7e5df;">
-    <header>
-
-        <div align="center">
-            <img width="400" height="300" src="img/contacto.jpg" alt="Imagen de portada">
-
-        </div>
-        <br>
-        <nav align="center">
-            <a href="index.html">HOME</a>
-            <a> / </a>
-            <a href="About.html">ABOUT</a>
+<body>
+    <header class="header">
+        <nav class="nav" id="nav">
+            <ul class="menu">
+                <li class="menu_li">
+                    <a class="menu_a" href="About.html">About <i class="fa fa-address-book-o" aria-hidden="true"></i></a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+            </ul>
         </nav>
-
     </header>
 
-    <section>
-        <table border="2" align="center">
-            <tr>
-                <th colspan="3">
-                    <h2>Contacto</h2>
-                </th>
-            </tr>
-            <tr>
-                <th>Numero de celular: </th>
-                <td>
-                    <a href="https://wa.link/tw0ya3" target="_blank"><img width="30" src="img/wsp.png" alt="Imagen"></a>
-                    / 933807434
-                </td>
-            </tr>
-            <tr>
-                <th>Dirección: </th>
-                <td>
-                    <a href="https://goo.gl/maps/qTqTqnqrnJhfa6Kh6" target="_blank"><img width="30" src="img/ubic.png" alt="Imagen"></a>
-                    Jr. Guadalupe 467 / Cajamarca
-                </td>
-            </tr>
-            <tr>
-                <th>Facebook:</th>
-
-                <td>
-                    <a href="https://www.facebook.com/EdarCv/" target="_blank"><img width="35" src="img/face.png" alt="Imagen"></a>
-                    EdarCV
-                </td>
-            </tr>
-        </table>
+    <section class="About">
+        <h1>MIS DATOS DE CONTACTO</h1>
     </section>
 
-    <footer align="center">
+    <section class="box_Contact">
+        <main>
+            <section class="contact">
+                <div class="datosCont">
+                    <div class="texto_Contact">
+                        <h3><span>1</span>Celular</h3>
+                        <p>
+                            <ul class="lista_cont">
+                                <li><a href="#" target="_blanck"><i class="fa fa-mobile" id="rscontacto" aria-hidden="true"></i> 933807434</a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" target="_blanck"><i class="fa fa-whatsapp" aria-hidden="true" id="rscontacto"></i> Whatsapp</a></li>
+                            </ul>
+                        </p>
+
+                        <h3><span>2</span>Redes Sociales</h3>
+                        <p>
+                            <ul class="lista_cont">
+                                <li><a href="https://www.facebook.com/EdarCv/" target="_blanck"><i class="fa fa-facebook-square" aria-hidden="true" id="rscontacto"></i> Facebook</a</li>
+                                <li><a href="https://www.instagram.com/edar.cv/?hl=es" target="_blanck"><i class="fa fa-instagram" aria-hidden="true" id="rscontacto"></i> Instagram</a></li>
+                            </ul>
+                        </p>
+                        <h3><span>3</span>Correo electrónico</h3>
+                        <p>
+                            <ul class="lista_cont">
+                                <li><a href="https://www.facebook.com/EdarCv/" target="_blanck"><i class="fa fa-envelope" aria-hidden="true" id="rscontacto"></i> Personal: <p>edarcv@gmail.com</p></a></li>
+                                <li><a href="https://www.instagram.com/edar.cv/?hl=es" target="_blanck"><i class="fa fa-envelope" aria-hidden="true" id="rscontacto"></i> Institucional: <p>ecervantesv15@unc.edu.pe</p> </a></li>
+
+                            </ul>
+                        </p>
+                    </div>
+
+                    <img class="img_Contact" src="img/Contact/contacto.jpg" alt="">
+                </div>
+            </section>
+        </main>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/EdarCv/" target="_blanck"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/edar.cv/?hl=es" target="_blanck"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" target="_blanck"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" target="_blanck"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+        </ul>
         <p>&copy Edar Cervantes Vásquez || 2021</p>
     </footer>
 </body>
