@@ -177,7 +177,7 @@ body {
 
 .box_About {
     width: 1150px;
-    height: 450px;
+    height: 480px;
     background: rgba(0, 0, 0, .4);
     margin: 0 auto;
     margin-top: 4%;
@@ -203,13 +203,13 @@ div.galeria {
 
 div.galeria img {
     margin: 5px 10px;
-    width: 300px;
+    width: 280px;
     height: 200px;
     border-radius: 20px;
 }
 
 div.galeria p {
-    width: 300px;
+    width: 280px;
     height: auto;
 }
 
