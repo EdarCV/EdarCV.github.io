@@ -100,6 +100,10 @@ body {
     border-radius: 15px;
 }
 
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+
 
 /*======ESTILOS FOOTER======*/
 
