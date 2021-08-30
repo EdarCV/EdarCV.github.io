@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    /*background: url(../img/index/fondo.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+
+/*==============MENU===============*/
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-animation: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .fb {
+    background: #3b5998;
+}
+
+.social ul li .inst {
+    background: #d95232;
+}
+
+.social ul li .what {
+    background: #00bb2d;
+}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+    background: #000;
+}
+
+
+/*==============SLIDE===============*/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/*======ESTILOS ABOUT======*/
+
+.About {
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+.About h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 50px 0 20px;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    text-align: center;
+}
+
+.box_About {
+    width: 1150px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.959);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+.box_About h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 29px 0 20px;
+    text-align: center;
+}
+
+div.galeria {
+    margin: 10px 20px;
+    float: left;
+    width: 300px;
+}
+
+div.galeria img {
+    margin: 5px 10px;
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+div.galeria p {
+    width: 280px;
+    height: auto;
+}
+
+p.des {
+    text-align: justify;
+    color: white;
+}
+
+div.text_img {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(28, 0, 128);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.box_About .h1_izq {
+    text-align: left;
+}
+
+.box_About .h1_der {
+    text-align: right;
+}
+
+div.galeria:hover {
+    border: 2px solid lightcoral;
+    transform: rotate(-3deg);
+    border-radius: 20px;
+}
+
+
+/*======ESTILOS FOOTER======*/
+
+.footer {
+    text-align: center;
+    background-color: #000;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.footer ul li a:hover {
+    transform: scale(1.1);
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+}
+
+.fa-whatsapp:hover {
+    color: #00bb2d;
+}
+
+.fa-envelope:hover {
+    color: #db4a39;
+}
+
+
+/*==============RESPONSIVE===============*/
+
+@media(max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

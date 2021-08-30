@@ -1,43 +1,148 @@
-<!DOCTYPE html>
-
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="estilopersonal.css">
 
     <!--Ruta para para iconos en linea-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Index</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav" id="nav">
-            <ul class="menu">
-                <li class="menu_li">
-                    <a class="menu_a" href="About.html">About <i class="fa fa-address-book-o" aria-hidden="true"></i></a>
-                </li>
-                <li class="menu_li">
-                    <a class="menu_a" href="Contact.html">Contact <i class="fa fa-phone" aria-hidden="true"></i></a>
-                </li>
-            </ul>
+    <!--========================================-->
+    <!-- MENÜ -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span class="text-primary fs-5 fw-bold">EdarCV</a></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle text-primary" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   Inicio</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-primary" href="#">Action</a></li>
+                                    <li><a class="dropdown-item text-primary" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-primary" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-primary" aria-current="page" href="About.html">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-primary" href="Contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Correo Electrónico" aria-label="email">
+                            <button class="btn btn-primary btn-primary-outline-success" type="button">Registrate</button>
+                        </form>
+                    </div>
+            </div>
         </nav>
     </header>
 
-    <section class="box">
-        <img class="box_img" src="img/index/perfil1.jpg" alt="imgen de perfil" width="180">
-        <h1>Edar Cervantes Vásquez</h1>
-        <h2>Bienvenidos a mi página web personal</h2>
-        <p>
-            Te doy la bienvenida a mi blog donde podrás encontrar información a cerca de mi persona asi como: mi experiencia laboral, lugares que he visitado, hobies, platos de comida favorita y también podrás encontrar mis datos de contacto.<br>
-            <br> Mi principal objetivo en este blog es compartir mis conococimientos sobre desarrollo web y brindar un poco de mi información personal, para que logren conocerme.
-        </p>
+    <!--========================================-->
+    <!-- SOCIAL -->
+    <div class="social">
+        <ul>
+            <li><a class="fb" href="https://www.facebook.com/EdarCv/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li>
+                <a class="inst" href="https://www.instagram.com/edar.cv/?hl=es" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a class="what" href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!--========================================-->
+    <!-- SLIDER CON IMAGENES -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/index/img3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/index/img1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/index/perfil1.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--========================================-->
+    <!-- INTRO -->
+    <section class="w-50 mx-auto text-center pt-5 intro" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">BIENVENIDOS A MI PAGINA WEB PERSONAL<span class="text-primary"><br>Espero que te sea de gran ayuda</span> </h1>
+        <p class="p-3">Mi nombre es <span class="text-primary"> Edar Cervantes Vásquez</span> y espero que esta pagina te sirva como guía para diseñar tu propio blog.</p>
 
     </section>
+
+    <!--========================================-->
+    <!-- SERVICIOS
+    <section class="container-fluid ">
+        <div class="row w-75 mx-auto my-5 servicio-fila ">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap ">
+                <img src="img/Contact/contacto.jpg " alt=" " width="180 " height="160 ">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 ">Desarrollo</h3>
+                    <p class="px-4 ">dvjkshajdv hjksdhvishdv uiasd isudhv iusdhvuisd</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap ">
+                <img src="img/Contact/contacto.jpg " alt=" " width="180 " height="160 ">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 ">Desarrollo</h3>
+                    <p class="px-4 ">dvjksha jdvhjksdhvi shdvuiasd isudhvius dhvuisd</p>
+                </div>
+            </div>
+        </div>
+        <div class="row w-75 mx-auto my-5 servicio-fila ">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap ">
+                <img src="img/Contact/contacto.jpg " alt=" " width="180 " height="160 ">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 ">Desarrollo</h3>
+                    <p class="px-4 ">dvjkshajd vhjksdhvishdv uiasd isudhvius dhvuisd</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap ">
+                <img src="img/Contact/contacto.jpg " alt=" " width="180 " height="160 ">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 ">Desarrollo</h3>
+                    <p class="px-4 ">dvjkshajdv hjksdhvishd vuiasd isudhviu sdhvuisd</p>
+                </div>
+            </div>
+        </div>
+    </section>  -->
 
     <footer class="footer">
         <ul>
@@ -54,8 +159,12 @@
                 <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             </li>
         </ul>
-        <p>&copy; Edar Cervantes Vásquez || 2021</p>
+        <p><span class="text-primary">&copy; Edar Cervantes Vásquez</span> || 2021</p>
     </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
 </body>
 
 </html>
