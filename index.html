@@ -21,7 +21,7 @@
     <!--========================================-->
     <!-- MENÜ -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 navbar-fixed-bottom" id="menu">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <span class="text-primary fs-5 fw-bold">EdarCV</a></span>
@@ -30,16 +30,8 @@
           </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle text-primary" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   Inicio</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item text-primary" href="#">Action</a></li>
-                                    <li><a class="dropdown-item text-primary" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item text-primary" href="#">Something else here</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link text-primary" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-primary" aria-current="page" href="About.html">Acerca de</a>
@@ -102,7 +94,7 @@
     <!--========================================-->
     <!-- INTRO -->
     <section class="w-50 mx-auto text-center pt-5 intro" id="intro">
-        <h1 class="p-3 fs-2 border-top border-3">BIENVENIDOS A MI PAGINA WEB PERSONAL<span class="text-primary"><br>Espero que te sea de gran ayuda</span> </h1>
+        <h1 class="p-3 fs-2 border-top border-3"><strong>BIENVENIDOS A MI PAGINA WEB PERSONAL</strong><span class="text-primary"><br>Espero que te sea de gran ayuda</span> </h1>
         <p class="p-3">Mi nombre es <span class="text-primary"> Edar Cervantes Vásquez</span> y espero que esta pagina te sirva como guía para diseñar tu propio blog.</p>
 
     </section>
@@ -144,22 +136,27 @@
         </div>
     </section>  -->
 
-    <footer class="footer">
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/EdarCv/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/edar.cv/?hl=es" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-        <p><span class="text-primary">&copy; Edar Cervantes Vásquez</span> || 2021</p>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <nav class="row">
+                <a href="#footer" class="col-lg-4 col-md-6 col-sm-12 text-reset text-uppercase d-flex align-items-center">
+                    <img src="img/index/img2.jpg" alt="" class="img-logo mr-2" width="150px">
+                </a>
+                <a href="#footer" class="col-lg-4 col-md-6 col-sm-12 text-reset text-center d-flex align-items-center" id="copyR">
+                    <p><span class="text-primary">&copy; Edar Cervantes Vásquez</span><br>Derechos reservados</p>
+                </a>
+                <!--Menu-->
+                <ul class="col-lg-4 col-md-6 col-sm-12 list-unstyles">
+                    <li class="d-flex font-weight-bold text-uppercase">Redes Sociales</li>
+                    <li class="d-flex sociales">
+                        <a href="https://www.facebook.com/EdarCv/" class="text-reset" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/edar.cv/?hl=es" class="text-reset" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" class="text-reset" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" class="text-reset" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
 

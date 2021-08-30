@@ -32,8 +32,18 @@
                             <li class="nav-item">
                                 <a class="nav-link text-primary" aria-current="page" href="index.html"> Inicio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-primary" aria-current="page" href="About.html">Acerca de</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acerca de</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-primary" href="#experiencia">Experiencia Laboral</a></li>
+                                    <li><a class="dropdown-item text-primary" href="#lugares">Lugares que conosco</a></li>
+                                    <li><a class="dropdown-item text-primary" href="#hobies">Mis Hobies</a></li>
+                                    <li><a class="dropdown-item text-primary" href="#comida">Comidas Favoritas</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-primary" href="index.html">Volver a Inicio</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-primary" href="Contact.html">Contacto</a>
@@ -66,139 +76,114 @@
         <h1>ACERCA DE MI</h1>
     </section>
 
-    <section class="box_About">
-        <h1 class="h1_izq">Mi experiencia laboral</h1>
-        <section>
-            <div class="galeria">
-                <div class="experiencia">
-                    <img src="img/About/repon.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>REPRESENTANTE DE SERVICIOS ÁREA DE SALA EN SPSA</p>
-                    <p class="des">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes."</p>
-                </div>
+    <section id="galeria" class="conteiner">
+        <div class="text-lg-start">
+            <h2 class="text-primary fw-bold" id="experiencia">Experiencia laboral</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/repon.jpg" alt="">
+                <p class="text-info fw-bold text-center">REPRESENTANTE DE SERVICIOS ÁREA DE SALA EN SPSA</p>
+                <p class="text-white text-center">"Encargado exhibir y revisar mercadería en el área de sala de venta para brindar el mejor servicio a los clientes."</p>
             </div>
-            <div class="galeria">
-                <div class="expercien">
-                    <img src="img/About/superv.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>SUPERVISOR DE ALMACÉN Y RECEPCIÓN EN SPSA</p>
-                    <p class="des">"Dirigir y organizar un equipo de trabajo, para la correcta recepción, ingreso al sistema y almacenamiento de productos."</p>
-                </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/superv.jpg" alt="">
+                <p class="text-info fw-bold text-center">SUPERVISOR DE ALMACÉN Y RECEPCIÓN EN SPSA</p>
+                <p class="text-white text-center">"Dirigir y organizar un equipo de trabajo, para la correcta recepción, ingreso al sistema y almacenamiento de productos."</p>
             </div>
-            <div class="galeria">
-                <div class="experiencia">
-                    <img src="img/About/ingeniero.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>FUTURO INGENIERO DE SISTEMAS - UNC</p>
-                    <p class="des">"Actualmente me encuentro en el noveno ciclo de la carrera profesional de ingenieria de sistemas en la UNC."</p>
-                </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/ingeniero.jpg" alt="">
+                <p class="text-info fw-bold text-center">FUTURO INGENIERO DE SISTEMAS - UNC</p>
+                <p class="text-white text-center">"Actualmente me encuentro en el noveno ciclo de la carrera profesional de ingenieria de sistemas en la UNC."</p>
             </div>
-        </section>
+        </div>
+
+        <div class="text-lg-end">
+            <h2 class="text-primary fw-bold" id="lugares">Lugares que conozco</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/bañosInca.jpg" alt="">
+                <p class="text-info fw-bold text-center">BAÑOS DEL INCA - CAJAMARCA</p>
+                <p class="text-white text-center">"El balneario de agua termo – medicinal más importante del Perú, originalmente conocido como “Pultumarka” que significa agua caliente en quechua, ubicado a 6 km de la ciudad de Cajamarca"</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/puemape.jpg" alt="">
+                <p class="text-info fw-bold text-center">PUEMAPE - PACASMAYO</p>
+                <p class="text-white text-center">"Lugar muy limpio y agradable para pasar un día en familia, si te gusta la arena hay una zona con mucha arena, a 20 minutos de San Pedro de Lloc en Pacasmayo."</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/leonDor.jpg" alt="">
+                <p class="text-info fw-bold text-center">PLAYA LEÓN DORMIDO LIMA</p>
+                <p class="text-white text-center">"León Dormido es una bella playa que se localiza en la provincia de Cañete, en Lima. Esta playa, que incluye en su territorio a la Playa El Gato, es bastante concurrida sobre todo en la época de verano y en media estación."</p>
+            </div>
+        </div>
+
+        <div class="text-lg-start">
+            <h2 class="text-primary fw-bold" id="hobies">Mis Hobies</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/futbol.jpeg" alt="">
+                <p class="text-info fw-bold text-center">JUGAR FÚTBOL</p>
+                <p class="text-white text-center">"Me gusta practicar fútbol desde pequeño, admiro a jugadores como Andres Iniesta, Charles Puyol, Lionel Messi, etc."</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/musica.gif" alt="">
+                <p class="text-info fw-bold text-center">ESCUCHAR MÚSICA</p>
+                <p class="text-white text-center">"Me encanta escuchar musica de todo genero, me desestresa; así también me gusta el baile sobre todo la salsa y el carnaval cajamarquino."</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/peli.gif" alt="">
+                <p class="text-info fw-bold text-center">VER SERIES Y PELÍCULAS</p>
+                <p class="text-white text-center">"En mis tiempos más libres me gusta ver películas de acción, ficción, etc."</p>
+            </div>
+        </div>
+
+        <div class="text-lg-end">
+            <h2 class="text-primary fw-bold" id="comida">Comidas Favoritas</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/ceviche.jpg" alt="">
+                <p class="text-info fw-bold text-center">CEVICHE</p>
+                <p class="text-white text-center">"Mi plato de comida más favorito y preferido es un buen ceviche picante con su arroz con mariscos."</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/maki.jpeg" alt="">
+                <p class="text-info fw-bold text-center">MAKIS</p>
+                <p class="text-white text-center">"El maki sushi es por tanto un rollo de alga nori relleno de arroz y distintos ingredientes como pescado, marisco, frutas o verduras."</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark">
+                <img src="img/About/pizza.jpg" alt="">
+                <p class="text-info fw-bold text-center">PIZZA</p>
+                <p class="text-white text-center">"Me gusta mucho la pizza en su variedad de preparaciones, asi como la de frutas , la hawaina, la tres quesos, la de pollo, la americana, etc"</p>
+            </div>
+        </div>
     </section>
 
-    <section class="box_About">
-        <h1 class="h1_der">Lugares que conozco</h1>
-        <section>
-            <div class="galeria">
-                <div class="lugares">
-                    <img src="img/About/bañosInca.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>BAÑOS DEL INCA - CAJAMARCA</p>
-                    <p class="des">"El balneario de agua termo – medicinal más importante del Perú, originalmente conocido como “Pultumarka” que significa agua caliente en quechua, ubicado a 6 km de la ciudad de Cajamarca"</p>
-                </div>
-            </div>
-            <div class="galeria">
-                <div class="lugares">
-                    <img src="img/About/puemape.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>PUEMAPE - PACASMAYO</p>
-                    <p class="des">"Lugar muy limpio y agradable para pasar un día en familia, si te gusta la arena hay una zona con mucha arena, a 20 minutos de San Pedro de Lloc en Pacasmayo."</p>
-                </div>
-            </div>
-            <div class="galeria">
-                <div class="lugares">
-                    <img src="img/About/leonDor.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>PLAYA LEÓN DORMIDO LIMA</p>
-                    <p class="des">"León Dormido es una bella playa que se localiza en la provincia de Cañete, en Lima. Esta playa, que incluye en su territorio a la Playa El Gato, es bastante concurrida sobre todo en la época de verano y en media estación."</p>
-                </div>
-            </div>
-        </section>
-    </section>
-
-    <section class="box_About">
-        <h1 class="h1_izq">Mis Hobies</h1>
-        <section>
-            <div class="galeria">
-                <div class="experiencia">
-                    <img src="img/About/futbol.jpeg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>JUGAR FÚTBOL</p>
-                    <p class="des">"Me gusta practicar fútbol desde pequeño, admiro a jugadores como Andres Iniesta, Charles Puyol, Lionel Messi, etc."</p>
-                </div>
-            </div>
-            <div class="galeria">
-                <div class="expercien">
-                    <img src="img/About/musica.gif" alt="">
-                </div>
-                <div class="text_img">
-                    <p>ESCUCHAR MÚSICA</p>
-                    <p class="des">"Me encanta escuchar musica de todo genero, me desestresa; así también me gusta el baile sobre todo la salsa y el carnaval cajamarquino."</p>
-                </div>
-            </div>
-            <div class="galeria">
-                <div class="experiencia">
-                    <img src="img/About/peli.gif" alt="">
-                </div>
-                <div class="text_img">
-                    <p>VER PELÍCULAS</p>
-                    <p class="des">"En mis tiempos más libres me gusta ver películas de acción, ficción, etc."</p>
-                </div>
-            </div>
-        </section>
-    </section>
-
-    <section class="box_About">
-        <h1 class="h1_der">Mis comidas favoritas</h1>
-        <section>
-            <div class="galeria">
-                <div class="lugares">
-                    <img src="img/About/ceviche.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>CEVICHE</p>
-                    <p class="des">"Mi plato de comida más favorito y preferido es un buen ceviche picante con su arroz con mariscos."</p>
-                </div>
-            </div>
-            <div class="galeria">
-                <div class="lugares">
-                    <img src="img/About/maki.jpeg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>MAKIS</p>
-                    <p class="des">" El maki sushi es por tanto un rollo de alga nori relleno de arroz y distintos ingredientes como pescado, marisco, frutas o verduras."</p>
-                </div>
-            </div>
-            <div class="galeria">
-                <div class="lugares">
-                    <img src="img/About/pizza.jpg" alt="">
-                </div>
-                <div class="text_img">
-                    <p>PIZZA</p>
-                    <p class="des">"Me gusta mucho la pizza en su variedad de preparaciones, asi como la de frutas , la hawaina, la tres quesos, la de pollo, la americana, etc"</p>
-                </div>
-            </div>
-        </section>
-    </section>
-
-
+    <footer class="bg-dark text-white" id="footer">
+        <div class="container">
+            <nav class="row">
+                <a href="#footer" class="col-lg-4 col-md-6 col-sm-12 text-reset text-uppercase d-flex align-items-center">
+                    <img src="img/index/img2.jpg" alt="" class="img-logo mr-2" width="150px">
+                </a>
+                <a href="#footer" class="col-lg-4 col-md-6 col-sm-12 text-reset text-center d-flex align-items-center" id="copyR">
+                    <p><span class="text-primary">&copy; Edar Cervantes Vásquez</span><br>Derechos reservados</p>
+                </a>
+                <!--Menu-->
+                <ul class="col-lg-4 col-md-6 col-sm-12 list-unstyles">
+                    <li class="d-flex font-weight-bold text-uppercase">Redes Sociales</li>
+                    <li class="d-flex sociales">
+                        <a href="https://www.facebook.com/EdarCv/" class="text-reset" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/edar.cv/?hl=es" class="text-reset" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" class="text-reset" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" class="text-reset" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>

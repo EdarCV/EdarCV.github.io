@@ -47,6 +47,8 @@
             </div>
         </nav>
     </header>
+
+
     <!--========================================-->
     <!-- SOCIAL -->
     <div class="social">
@@ -61,7 +63,71 @@
         </ul>
     </div>
 
+    <!--========================================-->
+    <!-- FORMULARIO -->
+    <section class="container-fluid d-flex justify-content-center">
+        <div class="card col-sm-6 p-3">
+            <div class="mb-3">
+                <h4>Contacto</h4>
+            </div>
+            <div class="mb-2">
+                <form action="">
+                    <div class="mb-2">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej. Edar">
+                    </div>
+                    <div class="mb-2">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej. Cervantes Vásquez">
+                    </div>
+                    <div class="mb-2">
+                        <label for="correo">Correo</label>
+                        <input type="text" class="form-control" name="correo" id="correo" placeholder="ej. edarcv@gmail.com">
+                    </div>
+                    <div class="mb-2">
+                        <label for="celular">Celular</label>
+                        <input type="text" class="form-control" name="celular" id="celular" placeholder="ej. 933807434">
+                    </div>
+                    <div class="mb-2">
+                        <label for="mensaje">Sexo: </label>
+                        <input type="radio" name="sexo" id="masculino" value="masculino"> Masculino
+                        <input type="radio" name="sexo" id="femenino" value="femenino"> Masculino
+                        <input type="radio" name="sexo" id="otro" value="otro"> No especificar
+                    </div>
+                    <div class="mb-2">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Ej. hola"></textarea>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <nav class="row">
+                <a href="#footer" class="col-lg-4 col-md-6 col-sm-12 text-reset text-uppercase d-flex align-items-center">
+                    <img src="img/index/img2.jpg" alt="" class="img-logo mr-2" width="150px">
+                </a>
+                <a href="#footer" class="col-lg-4 col-md-6 col-sm-12 text-reset text-center d-flex align-items-center" id="copyR">
+                    <p><span class="text-primary">&copy; Edar Cervantes Vásquez</span><br>Derechos reservados</p>
+                </a>
+                <!--Menu-->
+                <ul class="col-lg-4 col-md-6 col-sm-12 list-unstyles">
+                    <li class="d-flex font-weight-bold text-uppercase">Redes Sociales</li>
+                    <li class="d-flex sociales">
+                        <a href="https://www.facebook.com/EdarCv/" class="text-reset" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/edar.cv/?hl=es" class="text-reset" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=51933807434&text=Hola%20como%20est%C3%A1s" class="text-reset" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=app" class="text-reset" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

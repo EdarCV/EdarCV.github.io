@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    /*background: url(../img/index/fondo.jpg) no-repeat;*/
+    background: url(../img/index/fondo.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -59,10 +59,17 @@ body {
 }
 
 
-/*==============SLIDE===============*/
+/*==============HOME===============
+==============SLIDE===============*/
 
 .carousel-inner {
     max-height: 39rem;
+}
+
+#intro {
+    background: rgba(255, 255, 255, 0.726);
+    margin-top: 20px;
+    border-radius: 25px;
 }
 
 
@@ -78,101 +85,30 @@ body {
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
-    margin: 50px 0 20px;
     text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
     text-align: center;
 }
 
-.box_About {
-    width: 1150px;
-    height: 500px;
-    background: rgba(0, 0, 0, 0.959);
-    margin: 0 auto;
-    margin-top: 4%;
-    padding: 20px;
-    color: white;
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
     border-radius: 15px;
-}
-
-.box_About h1 {
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-weight: 100;
-    margin: 29px 0 20px;
-    text-align: center;
-}
-
-div.galeria {
-    margin: 10px 20px;
-    float: left;
-    width: 300px;
-}
-
-div.galeria img {
-    margin: 5px 10px;
-    width: 280px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-div.galeria p {
-    width: 280px;
-    height: auto;
-}
-
-p.des {
-    text-align: justify;
-    color: white;
-}
-
-div.text_img {
-    text-align: center;
-    text-shadow: 2px 2px 5px rgb(28, 0, 128);
-    padding: 10px;
-    color: rgba(255, 255, 255, 0.534);
-}
-
-.box_About .h1_izq {
-    text-align: left;
-}
-
-.box_About .h1_der {
-    text-align: right;
-}
-
-div.galeria:hover {
-    border: 2px solid lightcoral;
-    transform: rotate(-3deg);
-    border-radius: 20px;
 }
 
 
 /*======ESTILOS FOOTER======*/
 
-.footer {
-    text-align: center;
-    background-color: #000;
+footer .container .row a {
+    text-decoration: none;
 }
 
-.footer p {
-    color: white;
-}
-
-.footer ul {
-    list-style: none;
-    margin-top: 20px;
-}
-
-.footer ul li {
-    display: inline-block;
-}
-
-.footer ul li a {
-    color: white;
-    font-size: 45px;
-    padding: 10px 5px;
-    display: block;
-    transition: all .5s ease-in-out;
+footer .container .row .sociales a {
+    margin: 0 20px;
 }
 
 .footer ul li a:hover {
