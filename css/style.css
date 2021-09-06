@@ -175,8 +175,12 @@ footer .container .row .sociales a {
     background: blue;
 }
 
+#fondo {
+    background: blue;
+}
+
 .rojo label {
-    background: brown;
+    background: red;
 }
 
 .btn {
