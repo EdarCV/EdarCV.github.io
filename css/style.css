@@ -136,6 +136,64 @@ footer .container .row .sociales a {
 }
 
 
+/*==================================================*/
+
+
+/*======LAB05======*/
+
+.lab05 {
+    width: 75%;
+    background: rgb(166, 255, 255);
+}
+
+.lab {
+    text-align: center;
+    font: Arial !important;
+}
+
+.form input {
+    width: 250px;
+}
+
+.form label {
+    color: white;
+    height: 30px;
+    align-content: center;
+    line-height: 30px;
+    width: 190px;
+}
+
+.container {
+    text-align: center;
+}
+
+.resultado {
+    margin-top: 50px;
+}
+
+.azul label {
+    background: blue;
+}
+
+.rojo label {
+    background: brown;
+}
+
+.btn {
+    width: 200px;
+}
+
+.btnrojo {
+    background: brown;
+    color: white;
+}
+
+.btnamar {
+    background: rgb(247, 183, 46);
+    color: white;
+}
+
+
 /*==============RESPONSIVE===============*/
 
 @media(max-width:768px) {
